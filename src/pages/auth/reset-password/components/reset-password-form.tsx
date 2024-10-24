@@ -9,7 +9,7 @@ const ResetPasswordForm = () => {
     navigate("/otp");
   };
   return (
-    <form className="w-full max-w-xl space-y-6 p-6 bg-white shadow-md rounded-lg font-lora mb-4">
+    <div className="w-full max-w-xl space-y-6 p-6 bg-white shadow-md rounded-lg font-lora mb-4">
       {/* Google Login Button */}
       <h2 className="text-center text-[1.3rem] font-semibold font-lora text-[#0C1415]">
         Reset Password?
@@ -48,7 +48,7 @@ const ResetPasswordForm = () => {
           </Link>
         </p>
       </div>
-    </form>
+    </div>
   );
 };
 
